@@ -1,0 +1,6 @@
+*.cachefile
+*.cache
+*.suo
+*.pdb
+bin
+obj

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{64BA3777-F5E2-4561-BDD7-83A98FFDAB33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdParty", "3rdParty", "{E9EF9F01-C1A3-4E44-A4C7-EA3C36AE84B9}"
+	ProjectSection(SolutionItems) = preProject
+		3rdParty\FarseerPhysics.dll = 3rdParty\FarseerPhysics.dll
+		3rdParty\MultiInput.dll = 3rdParty\MultiInput.dll
+		3rdParty\ProjectMercury.dll = 3rdParty\ProjectMercury.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vortex.Engine", "Core\Vortex.Engine\Vortex.Engine.csproj", "{EB05E4B6-3894-43FA-A830-2BB289DC2F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vortex.Interfaces", "Core\Vortex.Interfaces\Vortex.Interfaces.csproj", "{80151F56-26CD-43B5-A7E0-69714B32336B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vortex.MercuryParticleProvider", "Core\Vortex.MercuryParticleProvider\Vortex.MercuryParticleProvider.csproj", "{A3E418C4-69AB-4A7B-AC0C-3514EB35AC97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB05E4B6-3894-43FA-A830-2BB289DC2F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB05E4B6-3894-43FA-A830-2BB289DC2F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB05E4B6-3894-43FA-A830-2BB289DC2F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB05E4B6-3894-43FA-A830-2BB289DC2F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80151F56-26CD-43B5-A7E0-69714B32336B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80151F56-26CD-43B5-A7E0-69714B32336B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80151F56-26CD-43B5-A7E0-69714B32336B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80151F56-26CD-43B5-A7E0-69714B32336B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E418C4-69AB-4A7B-AC0C-3514EB35AC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E418C4-69AB-4A7B-AC0C-3514EB35AC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E418C4-69AB-4A7B-AC0C-3514EB35AC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E418C4-69AB-4A7B-AC0C-3514EB35AC97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB05E4B6-3894-43FA-A830-2BB289DC2F7E} = {64BA3777-F5E2-4561-BDD7-83A98FFDAB33}
+		{80151F56-26CD-43B5-A7E0-69714B32336B} = {64BA3777-F5E2-4561-BDD7-83A98FFDAB33}
+		{A3E418C4-69AB-4A7B-AC0C-3514EB35AC97} = {64BA3777-F5E2-4561-BDD7-83A98FFDAB33}
+	EndGlobalSection
+EndGlobal
